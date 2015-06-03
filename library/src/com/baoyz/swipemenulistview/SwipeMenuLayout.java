@@ -249,10 +249,10 @@ public class SwipeMenuLayout extends FrameLayout {
 		if (mCloseScroller.computeScrollOffset()) {
 			mCloseScroller.abortAnimation();
 		}
-		if (state == STATE_OPEN) {
+//		if (state == STATE_OPEN) {
 			state = STATE_CLOSE;
 			swipe(0);
-		}
+//		}
 	}
 
 	public void openMenu() {
