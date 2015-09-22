@@ -23,7 +23,7 @@ public class SwipeMenuListView extends ListView {
 	private static final int TOUCH_STATE_Y = 2;
 
 	private int MAX_Y = 5;
-	private int MAX_X = 3;
+	private int MAX_X = 15; // 3 -> 15, 2015.09.18.
 	private float mDownX;
 	private float mDownY;
 	private int mTouchState;
